@@ -1,0 +1,21 @@
+body {
+  background: #677887;
+  background: linear-gradient(to right, #677887, #677887);
+}
+
+.card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('../img/banner.jpg');
+  background-size: cover;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+textarea {
+    resize: none;
+}
