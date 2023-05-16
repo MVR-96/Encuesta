@@ -3,5 +3,5 @@ document.getElementById("encuesta").addEventListener("submit", function(event) {
   
   setTimeout(function() {
     document.getElementById("encuesta").submit(); // Envía el formulario después del retraso
-  }, 3000);
+  }, 2000);
 });

@@ -79,7 +79,7 @@ $Auth = new PostDatos();
 if($Auth->postDataEncuesta($PR1PrimeraVisita, $PR2RangoEdad, $PR3DondeVisitas, $PR4ComoConociste, $PR5Limpieza, $PR5Servicio, $PR5Comida, $PR5CalidadPrecio, $PR6VolverVisita, $PR7Comentario)){
     header("location: ../views/Error.php"); //Error
 } else {
-    header("location: ../index.php");  //Correcto
+    header("location: ../views/Exito.php");  //Correcto
 }
 
 ?>

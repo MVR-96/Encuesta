@@ -59,7 +59,7 @@
               </div>
 
               <div class="d-grid mb-2">
-                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" value="Enviar" type="submit" onclick="validarCombo(); validarCombo2(); validarCombo3(); showPopup()">Enviar</button>
+                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" value="Enviar" type="submit" onclick="validarCombo(); validarCombo2(); validarCombo3()">Enviar</button>
               </div>
             </form>
           </div>
@@ -70,6 +70,6 @@
   <!-- js -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script> <!-- libreria SweetAlert -->  
   <script src="pluging/js/validaCombo.js"></script>
-  <script src="pluging/js/popup.js"></script>
+  <script src="pluging/js/retrasoEnvio.js"></script>
 </body>
 </html>
